@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Data Visualization and Analytical Tools</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url('bgimage.avif');
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .tool-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tool {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .aws {
+            border: 3px outset #FFB6C1;
+        }
+
+        .gcp {
+            border: 3px outset #00CED1;
+        }
+
+        .azure {
+            border: 3px outset #FFD700;
+        }
+
+        .tool h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #FA8072;
+        }
+
+        .tool ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tool ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <span style="color:#000000"><h1>Data Visualization & Analytical Tools in Different Cloud Platforms</h1></span>
+<br>
+         <span style="color: 	#BA55D3"><h2> IBM Cloud </h2></span>   
+    <div class="tool-container">
+    <div class="tool aws">
+            
+            <p><span style="text-align: center"><strong>IBM Cognos Analytics:</strong></span> 
+                <li>IBM Cognos Analytics is a comprehensive business intelligence and data visualization tool that allows users to create interactive dashboards, reports, and visualizations.</li>
+                <li>It supports a wide range of data sources and provides advanced analytics capabilities, including machine learning, to help users gain insights from their data.</li>
+                <li>IBM Cognos Analytics is designed for organizations that require robust and scalable analytics solutions.</li></p>
+            </div> 
+
+        <div class="tool aws">
+            <p><strong>IBM Watson Studio:</strong> 
+                <li>IBM Watson Studio is a data science and machine learning platform that also offers data visualization capabilities.</li>
+                <li>Users can leverage Watson Studio to prepare and analyze data, create visualizations, and build machine learning models all in one platform.</li>
+                <li>It's suitable for data scientists and analysts who need a comprehensive environment for data exploration, modeling, and visualization.</li></p>
+            </div>
+
+        <div class="tool aws">
+            <p><strong>IBM DataRefinery (formerly known as DataWorks):</strong> 
+                <li>IBM DataRefinery is a cloud-based data preparation and data wrangling tool that helps users clean, shape, and enrich their data for analysis.</li>
+                <li>While it primarily focuses on data preparation, it also offers basic data visualization features to visualize data during the data cleansing and transformation process.</li>
+                <li>DataRefinery is a valuable tool for data engineers and analysts who need to ensure data quality and consistency before performing in-depth analysis.</li></p>
+            </div>
+
+    </div>
+<br>
+       <span style="color: 	#4169E1"><h2>Google Cloud Platform</h2></span>
+        <div class="tool-container">
+        <div class="tool gcp">
+            
+             <p><strong>Google Data Studio:</strong> 
+                <li>Google Data Studio is a free and user-friendly data visualization tool that allows you to create interactive and shareable reports and dashboards.</li>
+                <li>It integrates seamlessly with other GCP services, as well as various data sources, making it a versatile choice for data visualization.</li>
+                <li>Data Studio is suitable for businesses and individuals looking for a straightforward tool to present data insights.</li></p>       
+        </div>
+
+        <div class="tool gcp">
+            
+             <p><strong>BigQuery:</strong> 
+                <li>While primarily known as a data warehouse, Google BigQuery includes data visualization capabilities. You can run SQL queries in BigQuery and create visualizations directly within the platform.</li>
+                <li>It's particularly beneficial for analysts and data engineers who want to analyze large datasets and generate visual insights without the need for separate tools.</li>
+                <li>BigQuery is ideal for organizations looking for an all-in-one solution for data storage, analysis, and visualization.</li></p>       
+        </div>
+
+        <div class="tool gcp">
+            
+             <p><strong>Looker:</strong> 
+                <li>Looker is a data exploration and business intelligence platform that is now part of Google Cloud.</li>
+                <li>It allows users to create interactive dashboards and reports, providing a holistic view of your data.</li>
+                <li>Looker supports data preparation, transformation, and sharing of insights, making it a comprehensive solution for data analysis.</li></p>       
+        </div>
+
+    </div>
+<br>
+        <span style="color: 	#FF8C00"><h2>Oracle Cloud</h2></span>
+        <div class="tool-container">
+        <div class="tool azure">
+             <p><strong>Oracle Analytics Cloud (OAC):</strong> 
+                <li>Oracle Analytics Cloud is a comprehensive, cloud-based platform that provides self-service analytics and data visualization capabilities. It allows users to create interactive dashboards, reports, and data visualizations.</li>
+                <li>OAC supports a wide range of data sources, including Oracle databases, data warehouses, and third-party sources, making it suitable for organizations with diverse data requirements.</li>
+                <li>The platform also offers advanced features such as machine learning integration, natural language processing, and predictive analytics.</li></p>       
+        </div>
+
+         <div class="tool azure">
+             <p><strong>Oracle Data Visualization Desktop (DVD):</strong> 
+                <li>Oracle Data Visualization Desktop is a client-based data visualization tool that enables users to explore and visualize data on their local machines.</li>
+                <li>With DVD, users can connect to various data sources, create visualizations, and then share their work with others. It's suitable for individuals or teams who want to perform data analysis and create compelling visuals.</li>
+                <li>It supports data preparation, transformation, and blending to help users get the most out of their data.</li></p>       
+        </div>
+
+        <div class="tool azure">
+             <p><strong>Oracle Autonomous Database:</strong> 
+                <li>Oracle Autonomous Database is a cloud-native, self-driving database service. While it's primarily a database service, it offers built-in analytics and data visualization capabilities.</li>
+                <li>Users can run SQL queries and create visualizations directly within the Autonomous Database, making it a suitable choice for organizations that prefer a unified database and analytics platform.</li>
+                <li>Oracle's Autonomous Database can automatically optimize performance, security, and scalability, allowing users to focus on data analysis and insights.</li></p>       
+        </div>
+        
+    </div>
+    <p><span style="color: grey"><center>Assignment by: Khushi Agarwal</center></span></p>
+</body>
+
+</html>
